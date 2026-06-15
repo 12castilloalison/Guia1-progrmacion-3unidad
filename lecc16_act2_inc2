@@ -1,0 +1,22 @@
+Algoritmo lecc16_act2_inc2
+	definir i, numeroMayor, posiciónMayor Como Entero
+	dimensionar numerosEnteros[8]
+	Para i=1 Hasta 8 Hacer
+		escribir "Ingrese el número: ", i, ":"
+		leer numerosEnteros[i]
+		Si indice=1 Entonces
+			numeroMayor=numerosEnteros[i]
+			posiciónMayor=i
+		SiNo
+			si numerosEnteros[i]>numeroMayor Entonces
+				numeroMayor=numerosEnteros[i]
+				posiciónMayor=i
+				
+			FinSi
+		Fin Si
+	Fin Para
+	escribir "El número mayor es: ", numeroMayor
+	escribir "Se encuentra en la Posición: " posiciónMayor
+
+	
+FinAlgoritmo
