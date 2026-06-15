@@ -1,0 +1,23 @@
+Algoritmo lecc16_act1
+	Definir color, n como cadena
+	dimensionar color[8]
+	//llenar el arreglo
+	color[1]="negro"
+	color[2]="cafe"
+	color[3]="naranja"
+	color[4]="corinto"
+	color[5]="amarillo"
+	color[6]="verde"
+	color[7]="morado"
+	color[8]="azul"
+	escribir "El color del indice 1 es: ", color[1]
+	escribir "El color del indice 2 es: ", color[2]
+	escribir "El color del indice 3 es: ", color[3]
+	escribir "El color del indice 4 es: ", color[4]
+	escribir "El color del indice 5 es: ", color[5]
+	escribir "El color del indice 6 es: ", color[6]
+	escribir "El color del indice 7 es: ", color[7]
+	escribir "El color del indice 8 es: ", color[8]
+
+	
+FinAlgoritmo
