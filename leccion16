@@ -1,0 +1,32 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("lecc 16-Act2-Inciso1");
+        Console.WriteLine("Castillo Alison/calve 12");
+        //arreglo 
+        int[] edadpersona = new int[7];
+        int cantidadpersMayores = 0;
+        for (int i = 0; i < edadpersona.Length; i++)
+
+        {
+            //solicitar las edades y almacenarlos en arreglos
+            Console.Write("ingrese la edad " + (i + 1) + ": ");
+            edadpersona[i] = Convert.ToInt32(Console.ReadLine());
+            if (edadpersona[i] >= 18)
+                cantidadpersMayores++;
+
+        }
+        //mostrar los datos del arreglo
+        Console.Clear();
+        Console.Write("Las edades ingresadas son: ");
+        for (int i = 0; i < edadpersona.Length; i++)
+
+        {
+            Console.Write(edadpersona[i] + "-");
+            
+        }
+        Console.WriteLine();
+        Console.WriteLine("La cantidad de personas mayores de edad son: "+cantidadpersMayores);
+    }
+}
