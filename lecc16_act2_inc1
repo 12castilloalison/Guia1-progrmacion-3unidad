@@ -1,0 +1,16 @@
+Algoritmo lecc16_act2_inc1
+	definir i, cantidadmayorEdad Como Entero
+
+	dimensionar edadesPersonas[7]
+	cantidadmayorEdad=0
+	Para i=1 Hasta 7  Hacer
+		escribir "Ingrese la edad de la persona: ", i, ":"
+		leer edadesPersonas[i]
+		Si edadesPersonas[i]>=18 Entonces
+			cantidadmayorEdad=cantidadmayorEdad+1
+		Fin Si
+	Fin Para
+escribir "Cantidad de personas mayores de edad: ", cantidadmayorEdad
+
+	
+FinAlgoritmo
