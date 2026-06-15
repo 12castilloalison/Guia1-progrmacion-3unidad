@@ -1,0 +1,26 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int i;
+        int cantidadMayorEdad = 0;
+        int[] edadesPersonas = new int[7];
+        for (i = 0; i < 7; i++)
+
+        {
+            Console.Write("Ingrese la edad de la persona: " + (i + 1) + ":");
+            edadesPersonas[i] = int.Parse(Console.ReadLine());
+            if (edadesPersonas[i] >= 18)
+            {
+                cantidadMayorEdad++;
+            }
+
+
+        }
+        Console.Write("");
+        Console.WriteLine("cantidad de personas mayores de edad:" + cantidadMayorEdad);
+
+
+    }
+        
+}
